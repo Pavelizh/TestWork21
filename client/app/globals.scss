@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  --background: #ffffff; /* Светлый фон */
+  --foreground: #171717; /* Темный текст */
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #121212; /* Темный фон */
+    --foreground: #ededed; /* Светлый текст */
+  }
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+body {
+  padding: 10px;
+  color: var(--foreground);
+  background: var(--background) !important;
+  font-family: Arial, Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+}
