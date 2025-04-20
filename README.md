@@ -21,4 +21,4 @@
 <h3>Качество кода:</h3>
 <li>ESLint : Для проверки кода на соответствие стандартам качества.</li>
 <h3>Демонстрация: 🎥</h3>
-<img src="https://drive.google.com/file/d/1sTQNM2NmZJrS7xgjYuulVORK40G9GhTA/view?usp=sharing">
+![Image](https://github.com/user-attachments/assets/d6bad723-8ee8-4211-b75e-27618ac9f8f3)
